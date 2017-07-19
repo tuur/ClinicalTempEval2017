@@ -1,3 +1,3 @@
 # LIIR-ClinicalTempEval2017
 
-TBA
+TBA (around July 30, 2017)
