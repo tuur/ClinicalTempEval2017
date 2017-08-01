@@ -1,3 +1,26 @@
-# LIIR-ClinicalTempEval2017
+# KULeuven-LIIR at Clinical TempEval 2017
 
-TBA (around July 30, 2017)
+Code of the [KULeuven-LIIR submission for Clinical TempEval 2017](http://aclweb.org/anthology/S/S17/S17-2181.pdf). We participated in all six subtasks, using a combination of Support Vector Machines (SVM) for event and temporal expression detection, and a structured perceptron for extracting temporal relations.
+
+# Code
+The code corresponding to the paper can soon (approx. September 2017) be obtained under an academic license at:
+
+http://liir.cs.kuleuven.be/software.php
+
+However, before that you can also always send me an email to request the code: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
+
+# Reference
+
+```
+@InProceedings{leeuwenberg-moens:2017:SemEval,
+  author    = {Leeuwenberg, Artuur  and  Moens, Marie-Francine},
+  title     = {KULeuven-LIIR at SemEval-2017 Task 12: Cross-Domain Temporal Information Extraction from Clinical Records},
+  booktitle = {Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)},
+  month     = {August},
+  year      = {2017},
+  address   = {Vancouver, Canada},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1030--1034},
+}
+```
+
