@@ -3,11 +3,11 @@
 Code of the [KULeuven-LIIR submission for Clinical TempEval 2017](http://aclweb.org/anthology/S/S17/S17-2181.pdf). We participated in all six subtasks, using a combination of Support Vector Machines (SVM) for event and temporal expression detection, and a structured perceptron for extracting temporal relations.
 
 # Code
-The code corresponding to the paper can soon (approx. September 2017) be obtained under an academic license at:
+The code corresponding to the paper can soon be obtained under an academic license at:
 
 http://liir.cs.kuleuven.be/software.php
 
-However, before that you can also always send me an email to request the code: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
+If the code is not yet online, you can always send me an email to request the code! My email is: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
 
 # Reference
 
