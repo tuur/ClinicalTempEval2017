@@ -2,7 +2,7 @@
 
 Code of the [KULeuven-LIIR submission for Clinical TempEval 2017](http://aclweb.org/anthology/S/S17/S17-2181.pdf). We participated in all six subtasks, using a combination of Support Vector Machines (SVM) for event and temporal expression detection, and a structured perceptron for extracting temporal relations.
 
-# What it does:
+# What it does
 Training and prediction for the following six temporal information extraction tasks:
 1. Detection of event spans (ES)
 2. Identification of event attributes (EA)
