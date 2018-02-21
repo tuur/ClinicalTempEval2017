@@ -2,6 +2,17 @@
 
 Code of the [KULeuven-LIIR submission for Clinical TempEval 2017](http://aclweb.org/anthology/S/S17/S17-2181.pdf). We participated in all six subtasks, using a combination of Support Vector Machines (SVM) for event and temporal expression detection, and a structured perceptron for extracting temporal relations.
 
+# What it does:
+Training and prediction for the following six temporal information extraction tasks:
+1. Detection of event spans (ES)
+2. Identification of event attributes (EA)
+3. Detection of temporal expressions (TS)
+4. Attribute identification of temporal expressions
+(TA)
+5. Extraction of document-creation-time relations
+for events (DR)
+6. Extraction of narrative container relations (CR)
+
 # Code
 The code corresponding to the paper can soon be obtained under an academic license at:
 
