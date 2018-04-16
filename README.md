@@ -16,7 +16,7 @@ for events (DR)
 # Code
 The code corresponding to the paper can soon be obtained under an academic license at:
 
-http://liir.cs.kuleuven.be/software.php
+http://liir.cs.kuleuven.be/software.html
 
 If the code is not yet online, you can always send me an email to request the code! My email is: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
 
