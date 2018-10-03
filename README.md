@@ -14,11 +14,11 @@ for events (DR)
 6. Extraction of narrative container relations (CR)
 
 # Code
-The code corresponding to the paper can soon be obtained under an academic license at:
+The code corresponding to the paper can be obtained at:
 
-http://liir.cs.kuleuven.be/software.html
+http://liir.cs.kuleuven.be/software_pages/structured_learning_temporal_relation.php
 
-If the code is not yet online, you can always send me an email to request the code! My email is: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
+For questions, you can always send me an email! My email is: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
 
 # Reference
 
