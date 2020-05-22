@@ -18,7 +18,7 @@ The code corresponding to the paper can be obtained at:
 
 http://liir.cs.kuleuven.be/software_pages/structured_learning_temporal_relation.php
 
-For questions, you can always send me an email! My email is: tuur [dot] leeuwenberg [at] cs [dot] kuleuven [dot] be
+For questions, you can always send me an email!
 
 # Reference
 
