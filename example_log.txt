@@ -1,0 +1,250 @@
+>>>> TRAINING ENTITY SPAN+ATTRIBUTE EXTRACTION
+reading ./mini_silver_data/train/ID005_web_05/ID005_web_05
+ID005_web_05 	 events: 58 	timex3: 1 tlink: 23
+TLINKS: 23
+reading ./mini_silver_data/train/ID009_web_09/ID009_web_09
+ID009_web_09 	 events: 69 	timex3: 5 tlink: 53
+TLINKS: 53
+reading ./mini_silver_data/train/ID002_web_02/ID002_web_02
+ID002_web_02 	 events: 88 	timex3: 2 tlink: 20
+TLINKS: 20
+reading ./mini_silver_data/train/ID004_web_04/ID004_web_04
+ID004_web_04 	 events: 61 	timex3: 2 tlink: 12
+TLINKS: 12
+reading ./mini_silver_data/train/ID008_web_08/ID008_web_08
+ID008_web_08 	 events: 69 	timex3: 3 tlink: 26
+TLINKS: 26
+reading ./mini_silver_data/train/ID007_web_07/ID007_web_07
+ID007_web_07 	 events: 29 	timex3: 0 tlink: 3
+TLINKS: 3
+reading ./mini_silver_data/train/ID001_web_01/ID001_web_01
+ID001_web_01 	 events: 34 	timex3: 0 tlink: 2
+TLINKS: 2
+extracting features from 7 documents
+fitting event classifier
+fitting timex3 classifier
+>>>> TRAINING RELATION EXTRACTION
+DOCTIMEREL labels: set(['BEFORE/OVERLAP', 'AFTER', 'OVERLAP', 'BEFORE'])
+TLINK labels: set(['no_label', 'CONTAINS'])
+reading ./mini_silver_data/train/ID005_web_05/ID005_web_05
+ID005_web_05 	 events: 58 	timex3: 1 tlink: 23
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 23
+reading ./mini_silver_data/train/ID009_web_09/ID009_web_09
+ID009_web_09 	 events: 69 	timex3: 5 tlink: 53
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 53
+reading ./mini_silver_data/train/ID002_web_02/ID002_web_02
+ID002_web_02 	 events: 88 	timex3: 2 tlink: 20
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 20
+reading ./mini_silver_data/train/ID004_web_04/ID004_web_04
+ID004_web_04 	 events: 61 	timex3: 2 tlink: 12
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 12
+reading ./mini_silver_data/train/ID008_web_08/ID008_web_08
+ID008_web_08 	 events: 69 	timex3: 3 tlink: 26
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 26
+reading ./mini_silver_data/train/ID007_web_07/ID007_web_07
+ID007_web_07 	 events: 29 	timex3: 0 tlink: 3
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 3
+reading ./mini_silver_data/train/ID001_web_01/ID001_web_01
+ID001_web_01 	 events: 34 	timex3: 0 tlink: 2
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 2
+no POS!
+training constraints: set(['MUL']) testing constraints: set(['MUL'])
+0 creating candidates for ID005_web_05
+max_recall 0.999999565218 23
+extracting features for  ID005_web_05 e: 58 ee: 555
+1 creating candidates for ID009_web_09
+max_recall 0.999999811321 53
+extracting features for  ID009_web_09 e: 69 ee: 698
+2 creating candidates for ID002_web_02
+max_recall 0.9999995 20
+extracting features for  ID002_web_02 e: 88 ee: 635
+3 creating candidates for ID004_web_04
+max_recall 0.999999166667 12
+extracting features for  ID004_web_04 e: 61 ee: 456
+4 creating candidates for ID008_web_08
+max_recall 0.999999615385 26
+extracting features for  ID008_web_08 e: 69 ee: 710
+5 creating candidates for ID007_web_07
+max_recall 0.999996666678 3
+extracting features for  ID007_web_07 e: 29 ee: 302
+6 creating candidates for ID001_web_01
+max_recall 0.999995000025 2
+extracting features for  ID001_web_01 e: 34 ee: 248
+vectorizing features
+DocTimeRel Features: 1304
+TLink Features: 6951
+== GLOBAL TRAINING ==
+Training Structured Perceptron...
+--iteration: 0 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 1 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 2 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 3 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 4 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 5 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 6 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 7 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 8 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 9 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 10 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 11 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 12 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 13 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 14 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 15 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 16 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 17 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 18 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 19 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 20 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 21 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 22 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 23 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 24 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 25 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 26 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 27 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 28 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 29 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 30 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+--iteration: 31 	lr: 1.0
+avg_loss_e: 0.0 avg_loss_ee 0.0
+0 []
+averaging...
+saving model to ./output/models//tlinks.p
+IMPORTANT TLINK:CONTAINS FEATURES
+IMPORTANT DCTR:OVERLAPvsBEFORE FEATURES
+>>>> PREDICTING ENTITIES
+reading ./mini_silver_data/test/ID003_web_03/ID003_web_03
+TLINKS: 0
+reading ./mini_silver_data/test/ID010_web_010/ID010_web_010
+TLINKS: 0
+reading ./mini_silver_data/test/ID006_web_06/ID006_web_06
+TLINKS: 0
+extracting features from 3 documents
+predicting...
+writing predictions to ./output/predictions/entities
+>>>> COPYING TXT FILES
+./mini_silver_data/test//ID003_web_03
+ID003_web_03
+./mini_silver_data/test//ID003_web_03/ID003_web_03  to  ./output/predictions/entities/ID003_web_03/ID003_web_03
+./mini_silver_data/test//ID006_web_06
+ID006_web_06
+./mini_silver_data/test//ID006_web_06/ID006_web_06  to  ./output/predictions/entities/ID006_web_06/ID006_web_06
+./mini_silver_data/test//ID010_web_010
+ID010_web_010
+./mini_silver_data/test//ID010_web_010/ID010_web_010  to  ./output/predictions/entities/ID010_web_010/ID010_web_010
+>>>> PREDICTING RELATIONS
+DOCTIMEREL labels: set(['BEFORE/OVERLAP', 'AFTER', 'OVERLAP', 'BEFORE'])
+TLINK labels: set(['no_label', 'CONTAINS'])
+reading ./output/predictions/entities/ID003_web_03/ID003_web_03
+ID003_web_03 	 events: 18 	timex3: 0 tlink: 0
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 0
+reading ./output/predictions/entities/ID010_web_010/ID010_web_010
+ID010_web_010 	 events: 27 	timex3: 0 tlink: 0
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 0
+reading ./output/predictions/entities/ID006_web_06/ID006_web_06
+ID006_web_06 	 events: 55 	timex3: 1 tlink: 0
+closure: CONTAINS 0
+closure: BEFORE 0
+TLINKS: 0
+no POS!
+training constraints: set(['MUL']) testing constraints: set(['MUL'])
+0 creating candidates for ID003_web_03
+max_recall 0.0 0
+extracting features for  ID003_web_03 e: 18 ee: 52
+1 creating candidates for ID010_web_010
+max_recall 0.0 0
+extracting features for  ID010_web_010 e: 27 ee: 200
+2 creating candidates for ID006_web_06
+max_recall 0.0 0
+extracting features for  ID006_web_06 e: 55 ee: 392
+vectorizing features
+DocTimeRel Features: 1358
+TLink Features: 7703
+predicting...
+loss_e: 0.68069560324 loss_ee: 0.468492896782
+writing to anafora...
+writing global to ./output/predictions/entities+relations/global
+writing ./output/predictions/entities+relations/global/ID003_web_03/ID003_web_03.Temporal-Relation.system.completed.xml ...
+writing ./output/predictions/entities+relations/global/ID010_web_010/ID010_web_010.Temporal-Relation.system.completed.xml ...
+writing ./output/predictions/entities+relations/global/ID006_web_06/ID006_web_06.Temporal-Relation.system.completed.xml ...
