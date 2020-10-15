@@ -15,7 +15,7 @@ Training and prediction for the following six temporal information extraction ta
 for events (DR)
 6. Extraction of narrative container relations (CR)
 
-> Any questions? Feel free to send me an email at aleeuw15@umcutrecht.nl
+> Any questions? Feel free to send me an email!
 
 ### Requirements
 * [Gurobi](https://www.gurobi.com)  (create account, download gurobi, and run setup.py)
